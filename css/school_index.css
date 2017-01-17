@@ -1,0 +1,183 @@
+@import "base.css";
+.nav-box{
+    padding:15px 30px 12px;
+    background:#161616;
+    color:#fff;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height:100px;
+}
+.nav-box .logo-box h1{
+    font-size: 32px;
+    color:#fafafa;
+}
+.nav-box .logo-box p {
+    font-size: 16px;
+    color:#fafafa;
+}
+.nav-box .nav-lists {
+    padding-top:39px
+}
+.nav-box .nav-lists li{
+    float:left;
+    height:24px;
+    margin-right:20px;
+}
+.nav-box .nav-lists li a{
+    color:#ccc;
+    font-size:18px;
+    height:24px;
+    line-height:24px;
+ }
+.nav-box .nav-lists li a:hover,.nav-box .nav-lists li.on a{
+    color:#fff;
+    font-weight: bold;
+}
+.nav-box .nav-lists li.hot{
+    position:relative;
+}
+.nav-box .nav-lists li.hot a:before{
+    content:" ";
+    position:absolute;
+    top:-35px;
+    left:1px;
+    width:48px;
+    height:48px;
+    background:url("../images/hot.png") left top no-repeat;
+    /*background-size: 16px 16px;*/
+}
+.nav-box .tel-box{
+    color:#fff;
+    font-size:16px;
+    padding-top:35px;
+}
+.nav-box .tel-box span{
+    font-size:22px;
+    font-weight:bold;
+}
+.banner{
+    width:100%;
+    background:#000;
+    margin-top:100px;
+}
+.banner img{
+    display:block;
+    max-width:1680px;
+    width:100%;
+    margin:0 auto;
+    height:auto;
+}
+.choose-box{
+    width: 1180px;
+    margin:auto;
+    overflow:hidden;
+}
+.choose-box h1{
+    font-size:26px;
+    position:relative;
+    text-align:center;
+    margin:40px auto;
+
+}
+.choose-box h1:before{
+    content:"";
+    position:absolute;
+    width:1180px;
+    top:50%;
+    left:0;
+    border:1px solid #cccccc;
+    z-index: -1;
+}
+.choose-box h1 span{
+    display:inline-block;
+    padding:0 20px;
+    background:#fff;
+}
+.choose-box h1 span em{
+    color:#e75a5a;
+    font-style: normal;
+}
+.choose-box .choose-lists{
+    width:1200px;
+    margin-top:30px;
+}
+.choose-box .choose-lists li{
+    width:220px;
+     float:left;
+    margin-right:20px;
+    background:#e9e8e8;
+    position:relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.choose-box .choose-lists li a{
+    display:block;
+    height:40px;
+    line-height:40px;
+    color:#fff;
+    text-align:center;
+    background:#e75a5a;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.choose-box .choose-lists li a:hover{
+    background:#db5353;
+    color:#fafafa;
+}
+.choose-box .choose-lists li h3{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.choose-box .choose-lists li p.content{
+    font-size: 16px;
+}
+.choose-box .choose-lists li div.star{
+    padding:15px 0;
+}
+.choose-box .choose-lists li div.star h5{
+    font-weight:normal;
+    font-size:14px;
+}
+.choose-box .choose-lists li div.star div.stars{
+    padding-top:10px;
+}
+.choose-box .choose-lists li div.star div.stars span{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:url("../images/star.png") top left no-repeat;
+    background-size:20px;
+}
+.hot-professions{
+    margin: 30px auto 0;
+    background:#f5f5f5;
+    width:1180px;
+    padding:20px;
+}
+.hot-professions .title{
+    text-align:center;
+}
+.hot-professions h1{
+    font-size: 28px;
+    color:#e75a5a;
+    text-align:center;
+}
+.hot-professions .title p.sub{
+    font-size:16px;
+    padding:10px 0;
+}
+.hot-professions .title p.sub span{
+    color:#db2828;
+}

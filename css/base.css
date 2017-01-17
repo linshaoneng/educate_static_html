@@ -1,6 +1,11 @@
 *{
     padding:0;
     margin:0;
+    font-family: "Microsoft YaHei";
+    color:#333;
+}
+em,i{
+    font-style: normal;
 }
 .clearfix:after{
     content:" ";
@@ -20,4 +25,10 @@
 }
 .align-center{
     text-align:center;
+}
+li{
+    list-style: none;
+}
+a,a:hover,a:active{
+    text-decoration:none;
 }
