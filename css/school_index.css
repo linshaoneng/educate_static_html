@@ -7,6 +7,7 @@
     top:0;
     left:0;
     width:100%;
+    z-index:9999;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -162,10 +163,10 @@
     background-size:20px;
 }
 .hot-professions{
-    margin: 30px auto 0;
+    margin: 40px auto 0;
     background:#f5f5f5;
     width:1180px;
-    padding:20px;
+    padding:30px;
 }
 .hot-professions .title{
     text-align:center;
@@ -181,4 +182,34 @@
 }
 .hot-professions .title p.sub span{
     color:#db2828;
+}
+.hot-professions .hot-lists{
+    padding: 30px 0 0;
+}
+.hot-professions .hot-lists .hot{
+    width: 120px;
+    height:120px;
+    text-align:center;
+    line-height:120px;
+     font-size: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color:#fff;
+    background:#fda7a7;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.hot-professions .hot-lists .hot-yellow{
+    background:#fbf43c;
+}
+.hot-professions .hot-lists .hot-purple{
+    background:#fec2fa;
+}
+.hot-professions .hot-lists .hot-blue{
+    background:#cbc8fc;
+}
+.hot-professions .hot-lists .hot-red{
+    background:#e75a5a;
 }
