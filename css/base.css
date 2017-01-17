@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+}
+.clearfix:after{
+    content:" ";
+    visibility:hidden;
+    display:block;
+    height:0;
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.align-center{
+    text-align:center;
+}
