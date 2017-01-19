@@ -1,4 +1,8 @@
 @import "base.css";
+.footer{
+    background:#161616;
+    height:100px;
+}
 .nav-box{
     padding:15px 30px 12px;
     background:#161616;
@@ -386,7 +390,7 @@
     overflow:hidden;
     text-overflow: ellipsis;
 }
-.notice .btn{
+.notice .btn,.installments .btn{
     display:block;
     width:200px;
     text-align:center;
@@ -400,7 +404,70 @@
     line-height:50px;
 
 }
-.notice .btn:hover{
+.notice .btn:hover,.installments .btn:hover{
     background:#db5353;
     color:#fafafa;
+}
+.installments{
+    background:url("../images/installments-bg.png") top center no-repeat;
+}
+.installments .title h1{
+    text-align:center;
+    font-size:32px;
+    padding:40px 0 20px;
+}
+.installments .title h1 span{
+    color:#e75a5a;
+}
+.installments .title .sub{
+    font-size:20px;
+    text-align:center;
+    color:#eeb274;
+    font-weight: bold;
+}
+.installments .content {
+    width: 830px;
+    margin:0 auto;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+
+.installments .content ul{
+    width:870px;
+    padding:40px 0;
+}
+
+.installments .content ul li{
+    float:left;
+    width:250px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:2px solid #e75a5a;
+    text-align:center;
+    margin-right:40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-top:40px;
+}
+.installments .content ul li h3{
+    padding-top:30px;
+    color:#666;
+}
+.installments .content ul li a{
+    display: block;
+    text-align:center;
+    height:50px;
+    line-height:50px;
+    color:#eeb274;
+    text-decoration: underline;
+}
+.installments .content ul li a:hover{
+    color:#e29e59;
+}
+.installments .content ul li  img{
+    width:120px;
+    height:120px;
+    border:none;
 }
