@@ -166,7 +166,7 @@
     background:#f5f5f5;
 }
 .hot-professions{
-    margin: 40px auto 0;
+    margin: 0 auto 0;
     background:#f5f5f5;
     width:1180px;
     padding:30px;
@@ -549,5 +549,36 @@
     width:100%;
     height:100px;
     background:#161616;
+}
+.question{
+    background:url("../images/question.png") right center no-repeat;
+    margin-top:40px;
+    padding-bottom:50px;
+}
+.question h1{
+    padding:20px;
+    text-align:center;
+    font-size:28px;
+    color:#831f1e;
+}
+.question .questions{
+    width:40%;
+    text-align:right;
+    line-height:3;
+}
+.question .fr{
+    width:40%;
+    background:url("../images/arrow.png") left center no-repeat;
+    padding-left:13%;
+}
+.question .fr a{
+    display:inline-block;
+    background:#e75a5a;
+    color:#fff;
+    margin-bottom:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    padding:10px 20px;
 }
 
