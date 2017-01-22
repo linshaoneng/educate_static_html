@@ -275,6 +275,7 @@ div.menus .menu-list li{
     -webkit-border-top-right-radius-radius: 5px;
     -moz-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
+    cursor: pointer;
 }
 div.menus .menu-list li.on,div.menus .menu-list li:hover{
     background:#e75a5a;
