@@ -1,0 +1,79 @@
+@import "base.css";
+.pop{
+    width:600px;
+    height:428px;
+    background:url("../images/pop.jpg") top center no-repeat;
+}
+.pop .content{
+    padding-top: 162px;
+}
+.pop .content h4{
+    text-align:center;
+    color:#461514;
+    font-size:20px;
+    font-weight: bold;
+}
+.pop .content h2{
+    text-align:center;
+    color:#461514;
+    padding:2px 0;
+}
+.pop .content h4 span, .pop .content h2 span{
+    font-size: 33px;
+    color:#461514;
+}
+.pop .content h4  a{
+    text-decoration: underline;
+    color:#ab2b2a;
+}
+.pop .content h4  a:hover{
+    color:#831f1e;
+}
+.pop .btn a{
+    float:left;
+    background:#ab2b2a;
+    color:#fff;
+    display:inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height:36px;
+    line-height:36px;
+    padding: 0 20px;
+    margin-top:30px;
+}
+.pop .btn a:hover{
+    background:#831f1e;
+}
+.pop .btn a.now{
+    margin-left: 120px;
+}
+.pop .btn a.activity{
+    margin-left:155px;
+}
+.pop .manner{
+    text-align:center;
+    color:#b89374;
+    margin-top:22px;
+    font-size:14px;
+}
+.pop .manner a{
+    color:#ab2b2a;
+}
+.pop .manner a:hover{
+    color:#831f1e;
+}
+.pop-box{
+    position:relative;
+    width:600px;
+    padding-top:50px;
+}
+.pop-box a.close{
+    display:block;
+    width: 48px;
+    height:48px;
+    background:url("../images/close.png") left top no-repeat;
+    position: absolute;
+    top:0;
+    right:-24px;
+}
