@@ -1,2 +1,27 @@
 *{padding:0;margin:0;}
-html{font-size:62.5%;}
+html,body{
+    font-size:14px;
+}
+a,a:hover,a:active,a:link{
+    text-decoration: none;
+}
+input:focus{
+    outline:none;
+}
+
+.clearfix:after{
+    content:" ";
+    visibility:hidden;
+    display:block;
+    height:0;
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}

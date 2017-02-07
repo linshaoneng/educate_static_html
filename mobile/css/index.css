@@ -1,1 +1,125 @@
 @import "./base.css";
+.top-line{
+    padding:0 10px;
+    font-size: 1em;
+    color:#fff;
+    line-height:2.2;
+    background:#7c7c7c;
+}
+.name-box{
+    width:100%;
+}
+.name-box img{
+    display:block;
+    width:100%;
+    max-width:640px;
+    margin:0 auto;
+    height:auto;
+}
+.flex-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:flex;
+}
+.flex-box .item {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.nav-box a{
+    text-align:center;
+    font-size:1.2em;
+    line-height:2.6;
+    color:#fff;
+}
+.nav-box a.border{
+    border-left: 1px solid #fff;
+    border-right:1px solid #fff;
+}
+.nav-box a.blue{
+    background: #5fc0f3;
+}
+.nav-box .flex-box{
+    border-bottom: 1px solid #fff;
+}
+.nav-box a.green{
+    background: #29b686;
+}
+.nav-box a.pink{
+    background: #e45d54;
+}
+.profile{
+    /*background:#e9f8fd;*/
+    padding:10px 10px 20px 10px;
+}
+.profile h2{
+    color:#323431;
+    font-size:2em;
+    text-align:center;
+    line-height:2;
+}
+.profile p{
+    font-size: 1em;
+    text-indent: 2em;
+    line-height:1.5;
+    color:#333;
+    text-align:justify;
+}
+.professions{
+    background:#e9f8fd;
+    padding-bottom: 10px;
+}
+.professions h1{
+    font-size: 2em;
+    text-align:center;
+    color:#323431;
+    line-height:2;
+}
+.professions .flex-box{
+    margin-bottom: 10px;
+}
+.professions a{
+    text-align:center;
+    margin-left: 10px;
+    background: #25b383;
+    color:#fff;
+    font-size: 1em;
+    line-height: 2.6;
+}
+.professions a.hot{
+    background: #e45d54;
+}
+.professions a.right-margin{
+    margin-right: 10px;
+}
+a.click-more{
+    margin:15px 0;
+    background:#96041f;
+    color:#fff;
+    text-align: center;
+    display:block;
+    font-size:1.6em;
+    padding:10px 0;
+}
+a.ask-teacher{
+    margin-bottom: 15px;
+    height:60px;
+    display:block;
+    padding-left: 10px;
+    background:#f5f5f5;
+    color:#333333;
+}
+.ask-teacher p, .ask-teacher span{
+    line-height:60px;
+    font-size:1.2em;
+    color:#333333;
+}
+.ask-teacher span{
+    background:#a0e6ff;
+    padding:0 10px;
+    font-weight: bold;
+}
