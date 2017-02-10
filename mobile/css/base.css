@@ -37,3 +37,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: #ccc;
 }
+li{
+    list-style:none;
+}
