@@ -640,4 +640,96 @@ a.ad img{
     background:url("../images/qq.png") center center no-repeat;
     background-size:30px 33px;
 }
+.enroll_manner{
+    width: 1230px;
+    margin:50px auto 0;
+    background:#e8f0fb;
+}
+.enroll_manner .time-box{
+    width:615px;
+    background:#f2f2f2;
+}
+.enroll_manner .questions-box{
+    width: 615px;
+}
+.enroll_manner h1{
+    height:50px;
+    line-height: 50px;
+    text-align:center;
+    font-size: 26px;
+    margin:20px auto;
+}
+.enroll_manner .time-box h1 span{
+    font-size: 30px;
+    color:#ca2929;
+}
+.enroll_manner .time, .enroll_manner .questions{
+    width: 400px;
+    margin: 20px auto;
+}
+.enroll_manner .questions-box .questions-list{
+    width: 200px;
+    float:left;
+    height: 120px;
+    /*overflow:hidden;*/
+}
+.enroll_manner .questions-box .questions-list a{
+    display:block;
+    font-size: 16px;
+    line-height: 1.6;
+    position:relative;
+}
+.enroll_manner .questions-box .questions-list a.hot:before{
+    content:" ";
+    display:block;
+    width: 16px;
+    height: 16px;
+    background:url("../images/icon_sign.png") center center no-repeat;
+    background-size: 16px 16px;
+    top:0;
+    left:-17px;
+    position: absolute;
+}
+.enroll_manner .time .time-show{
+    width: 200px;
+    float:left;
+    font-size: 20px;
+}
+.enroll_manner .time .time-show span{
+    display:inline-block;
+    width:120px;
+    height:120px;
+    border: 5px solid #ca2929;
+    font-size: 100px;
+    font-weight: 600;
+    text-align:center;
+    color:#ca2929;
+    margin-right:10px;
+}
+.enroll_manner .time .btns{
+    float:left;
+    background:url("../images/icon_time.png") center top no-repeat;
+    background-size: 70px 70px;
+    padding-top: 90px;
+}
+.enroll_manner .questions-box .btns{
+    float:left;
+    background:url("../images/icon_questions.png") center top no-repeat;
+    background-size: 70px 70px;
+    padding-top: 90px;
+}
+.enroll_manner .btns a{
+    color:#fff;
+    display:inline-block;
+    background:#ca2929;
+    height:36px;
+    line-height:36px;
+    padding:0 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.enroll_manner .time .btns a:hover{
+    background:#e45d54;
+}
 
