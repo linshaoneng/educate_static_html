@@ -3,12 +3,12 @@ div.top-line{
     background:#161616;
     color:#fff;
     padding:0 50px;
-    font-size:18px;
-    height:40px;
-    line-height:40px;
+    font-size:14px;
+    height:30px;
+    line-height:30px;
 }
 div.top-line span{
-    font-size: 14px;
+    font-size: 12px;
     color:#fff;
 }
 .nav-box{
@@ -95,163 +95,327 @@ div.top-line span{
     margin-left:550px;
 }
 .profile .content h2{
-    padding:10px 15px;
+    padding:10px;
     display: inline-block;
-    background:#e75a5a;
+    background:#191919;
     color:#fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius:5px;
-    margin-top:20px;
+    margin-top:10px;
     margin-bottom: 20px;
+    font-size:16px;
 }
 .profile .content .words p{
     font-size: 14px;
     line-height:1.5;
     text-indent: 2em;
-    margin-bottom:30px;
+    margin-bottom:15px;
 }
-.profile .content .words p a{
-    color:#e75a5a;
-    text-decoration: underline;
+.profile .content a{
+    color:#fff;
+    display:inline-block;
+    background:#e75a5a;
+    height:36px;
+    line-height:36px;
+    padding:0 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-.profile .content .words p a:hover{
-    color:#db5353;
+.profile .content a:hover{
+    background:#ca2929;
 }
 div.about{
     width:1230px;
     margin:30px auto;
 }
-div.about .title{
-    width:150px;
-    height:150px;
-    background:#ccc;
-    text-align:center;
-    line-height:150px;
+div.about div.sign-up, div.about div.diploma{
+    width: 500px;
+    height:226px;
+    background:#f5f5f5;
+    margin-right:10px;
+}
+div.about div.diploma .lists ul li{
+    position:relative;
+    overflow:hidden;
+}
+div.about div.diploma div.hidden-box{
+    width:100%;
+    height: 145px;
+    background-color:rgba(0,0,0,0.9);
+    position: absolute;
+    top:145px;
+    left:0;
+}
+div.about div.diploma div.hidden-box a{
+    display:block;
+    height: 36px;
+    line-height:36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0 10px;
+    border-bottom: 1px dashed #ccc;
+    color:#fff;
+}
+div.about div.diploma div.hidden-box a:last-child{
+    border:none;
+}
+div.about div.diploma .lists ul li span em{
+    color:#ca2929;
     font-size:20px;
+    font-weight: 600;
+}
+div.about div.diploma .lists ul li{
+    height: 145px;
+}
+div.about div.diploma .lists ul li a.hover-btn{
+    display:block;
+    width: 120px;
+    margin: 35px auto;
     color:#fff;
-    position: relative;
-}
-
-div.about .title:before{
-    content:"";
-    display:block;
-    width:0;
-    height:0;
-    position:absolute;
-    /*border-left: 10px solid #ff814f;*/
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid transparent;
-    right:-20px;
-    top:65px;
-}
-div.about .record .title{
-    background:#ff814f;
-    position:relative;
-}
-div.about .record .title:before{
-    border-left: 10px solid #ff814f;
-}
-div.about .enroll .title{
     background:#e75a5a;
-}
-
-div.about .enroll .title:before{
-    border-left: 10px solid #e75a5a;
-}
-div.about .teacher .title{
-    background:#7fa3ed;
-}
-div.about .teacher .title:before{
-    content:"";
-    display:block;
-    width:0;
-    height:0;
-    position:absolute;
-    border-right: 10px solid #7fa3ed;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid transparent;
-    left:-20px;
-    top:65px;
-
-}
-div.about .record .content, div.about .enroll .content, div.about .teacher .content{
-    width:100px;
-    height:110px;
-    padding:20px 40px;
-    background:#eee;
-    display:table-cell;
-    vertical-align: middle;
-}
-div.about .enroll .content{
-    height:92px;
-    padding-top:38px;
-}
-div.about .teacher .content{
-    width:120px;
-}
-div.about .teacher .content a{
-    display:block;
     height:36px;
     line-height:36px;
-    margin-top:37px;
-}
-div.about .teacher .content a:hover{
-    color:#7fa3ed;
-    text-decoration: underline;
-}
-div.about .enroll{
-    margin-left:35px;
-}
-div.about .enroll .more{
-    width:150px;
-    height:150px;
-    background:#e75a5a;
     text-align:center;
-    position:relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-div.about .enroll .more:before{
-    content:"";
+div.about div.diploma .lists ul li a.hover-btn:hover{
+    background: #ca2929;
+    text-decoration: none;
+}
+div.about div.teacher{
+    width:200px;
+    height:226px;
+    background:#f5f5f5;
+}
+div.about div.teacher div.content{
+    background:#fff;
+    width:160px;
+    height:80px;
+    margin: 25px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.about div.teacher div.content {
+    text-align:center;
+}
+div.about div.teacher div.content span{
     display:block;
-    width:0;
-    height:0;
-    position:absolute;
-    border-right: 10px solid #e75a5a;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid transparent;
-    left:-20px;
-    top:65px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #ccc;
 }
-div.about .enroll .more a{
-    margin-top:10px;
+div.about div.teacher div.content p{
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+div.about div.teacher div.content p em{
+    font-weight:  600;
+    color:#a6150a;
+    font-size: 20px;
+
+}
+div.about div.teacher .btn a{
     display:block;
-    height:25px;
-    line-height:25px;
-    color:#fafafa;
-}
-div.about .enroll .more a:hover{
+    width: 160px;
+    margin: 10px auto;
     color:#fff;
-    text-decoration: underline;
-    font-weight: bold;
+    background:#e75a5a;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-div.about .record .content a, div.about .enroll .content a{
+div.about div.teacher .btn a:hover{
+    background-color:#ca2929
+}
+div.about h1{
+    font-size: 16px;
+    display:inline-block;
+    padding:0 15px;
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #191919;
+}
+div.about div.lists {
+    width:460px;
+    overflow:hidden;
+    margin:20px auto;
+}
+div.about div.lists ul {
+    width:480px;
+}
+div.about div.lists ul li{
+    float:left;
+    width:140px;
+    background:#fff;
+    margin-right:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+div.about div.lists ul li span,div.about div.lists ul li a{
     display:block;
-    font-size:16px;
-    color:#333;
+}
+div.about div.lists ul li span{
+    font-size: 16px;
+    height:36px;
+    line-height:36px;
+    border-bottom: 1px dashed #ccc;
+}
+div.about div.lists ul li a {
+    font-size: 14px;
     height:36px;
     line-height:36px;
 }
-div.about .record .content a:hover{
-    color:#ff814f;
+div.about div.lists ul li a:hover{
     text-decoration: underline;
 }
-div.about .enroll .content a:hover{
-    color:#e75a5a;
-    text-decoration: underline;
-}
+    /*div.about .title{*/
+    /*width:150px;*/
+    /*height:150px;*/
+    /*background:#ccc;*/
+    /*text-align:center;*/
+    /*line-height:150px;*/
+    /*font-size:20px;*/
+    /*color:#fff;*/
+    /*position: relative;*/
+/*}*/
+
+/*div.about .title:before{*/
+    /*content:"";*/
+    /*display:block;*/
+    /*width:0;*/
+    /*height:0;*/
+    /*position:absolute;*/
+    /*!*border-left: 10px solid #ff814f;*!*/
+    /*border-top: 10px solid transparent;*/
+    /*border-bottom: 10px solid transparent;*/
+    /*border-right: 10px solid transparent;*/
+    /*right:-20px;*/
+    /*top:65px;*/
+/*}*/
+/*div.about .record .title{*/
+    /*background:#ff814f;*/
+    /*position:relative;*/
+/*}*/
+/*div.about .record .title:before{*/
+    /*border-left: 10px solid #ff814f;*/
+/*}*/
+/*div.about .enroll .title{*/
+    /*background:#e75a5a;*/
+/*}*/
+
+/*div.about .enroll .title:before{*/
+    /*border-left: 10px solid #e75a5a;*/
+/*}*/
+/*div.about .teacher .title{*/
+    /*background:#7fa3ed;*/
+/*}*/
+/*div.about .teacher .title:before{*/
+    /*content:"";*/
+    /*display:block;*/
+    /*width:0;*/
+    /*height:0;*/
+    /*position:absolute;*/
+    /*border-right: 10px solid #7fa3ed;*/
+    /*border-top: 10px solid transparent;*/
+    /*border-bottom: 10px solid transparent;*/
+    /*border-left: 10px solid transparent;*/
+    /*left:-20px;*/
+    /*top:65px;*/
+
+/*}*/
+/*div.about .record .content, div.about .enroll .content, div.about .teacher .content{*/
+    /*width:100px;*/
+    /*height:110px;*/
+    /*padding:20px 40px;*/
+    /*background:#eee;*/
+    /*display:table-cell;*/
+    /*vertical-align: middle;*/
+/*}*/
+/*div.about .enroll .content{*/
+    /*height:92px;*/
+    /*padding-top:38px;*/
+/*}*/
+/*div.about .teacher .content{*/
+    /*width:120px;*/
+/*}*/
+/*div.about .teacher .content a{*/
+    /*display:block;*/
+    /*height:36px;*/
+    /*line-height:36px;*/
+    /*margin-top:37px;*/
+/*}*/
+/*div.about .teacher .content a:hover{*/
+    /*color:#7fa3ed;*/
+    /*text-decoration: underline;*/
+/*}*/
+/*div.about .enroll{*/
+    /*margin-left:35px;*/
+/*}*/
+/*div.about .enroll .more{*/
+    /*width:150px;*/
+    /*height:150px;*/
+    /*background:#e75a5a;*/
+    /*text-align:center;*/
+    /*position:relative;*/
+/*}*/
+/*div.about .enroll .more:before{*/
+    /*content:"";*/
+    /*display:block;*/
+    /*width:0;*/
+    /*height:0;*/
+    /*position:absolute;*/
+    /*border-right: 10px solid #e75a5a;*/
+    /*border-top: 10px solid transparent;*/
+    /*border-bottom: 10px solid transparent;*/
+    /*border-left: 10px solid transparent;*/
+    /*left:-20px;*/
+    /*top:65px;*/
+/*}*/
+/*div.about .enroll .more a{*/
+    /*margin-top:10px;*/
+    /*display:block;*/
+    /*height:25px;*/
+    /*line-height:25px;*/
+    /*color:#fafafa;*/
+/*}*/
+/*div.about .enroll .more a:hover{*/
+    /*color:#fff;*/
+    /*text-decoration: underline;*/
+    /*font-weight: bold;*/
+/*}*/
+/*div.about .record .content a, div.about .enroll .content a{*/
+    /*display:block;*/
+    /*font-size:16px;*/
+    /*color:#333;*/
+    /*height:36px;*/
+    /*line-height:36px;*/
+/*}*/
+/*div.about .record .content a:hover{*/
+    /*color:#ff814f;*/
+    /*text-decoration: underline;*/
+/*}*/
+/*div.about .enroll .content a:hover{*/
+    /*color:#e75a5a;*/
+    /*text-decoration: underline;*/
+/*}*/
 div.menus{
     width:1230px;
     margin:0 auto;
@@ -269,21 +433,19 @@ div.menus .menu-list li{
     line-height:36px;
     color:#333;
     padding:0 20px;
-    -webkit-border-top-left-radius-radius: 5px;
     -moz-border-top-left-radius: 5px;
     border-top-left-radius: 5px;
-    -webkit-border-top-right-radius-radius: 5px;
     -moz-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
 }
 div.menus .menu-list li.on,div.menus .menu-list li:hover{
-    background:#e75a5a;
+    background:#191919;
     color:#fff;
 }
 div.menus .menu-con{
     display:none;
-    border:2px solid #e75a5a;
+    border:2px solid #191919;
     padding:10px;
     background:#fafafa;
 }
@@ -292,19 +454,27 @@ div.menus .menu-con img{
     height:200px;
 }
 div.menus .menu-con .content{
-    height:200px;
+    height:160px;
     text-indent: 2em;
     font-size: 14px;
     line-height:1.5;
     overflow:hidden;
     padding-left:10px;
 }
-div.menus .menu-con .content a{
-    color:#e75a5a;
-    text-decoration: underline;
+div.menus .menu-con a{
+    color:#fff;
+    display:inline-block;
+    background:#e75a5a;
+    height:36px;
+    line-height:36px;
+    padding:0 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left:10px;
 }
-div.menus .menu-con .content a:hover{
-    color:#e29e59;
+div.menus .menu-con a:hover{
+    background-color:#ca2929;
 }
 div.menus div.menu-2{
     margin-left:25px;
@@ -340,6 +510,11 @@ div.menus .menu-3 .content a:hover{
     font-weight: bold;
     text-decoration: underline;
 
+}
+div.menus .menu-3 .content a.more{
+    background:#191919;
+    height:48px;
+    line-height:48px;
 }
 .we-from-here{
     width:1230px;
@@ -392,10 +567,21 @@ div.menus .menu-3 .content a:hover{
     text-align:center;
     padding:0 50px;
 }
-.footer p, .footer a{
+.footer a{
     display:inline-block;
     line-height:100px;
     color:#fff;
+}
+.footer p{
+    display:inline-block;
+    line-height:45px;
+    color:#fff;
+}
+.footer p span{
+    color:#fff;
+    font-size:26px;
+    position:relative;
+    top:15px;
 }
 .footer a:hover{
     text-decoration: underline;
@@ -422,3 +608,36 @@ a.ad img{
     width:100%;
     height:100px;
 }
+.online-ask{
+    position:fixed;
+    top:150px;
+    right:0;
+    height:auto;
+    z-index:999;
+}
+.online-ask .title{
+    width:60px;
+    color:#fff;
+    background:#191919;
+    text-align:center;
+    line-height:1.2;
+    padding:10px 0;
+    cursor:pointer;
+}
+.online-ask .manners{
+    border:1px solid #ccc;
+    border-top:none;
+    width:50px;
+    padding:0 4px;
+    background:#f5f5f5;
+}
+.online-ask .manners a{
+    width:50px;
+    height:50px;
+    display:block;
+}
+.online-ask .manners a.qq{
+    background:url("../images/qq.png") center center no-repeat;
+    background-size:30px 33px;
+}
+
