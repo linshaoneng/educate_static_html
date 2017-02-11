@@ -259,35 +259,70 @@
 .hot-professions .title p.sub span{
     color:#db2828;
 }
-.hot-professions .hot-lists{
-    padding: 30px 0 0;
+.hot-professions .professions{
+    width: 1180px;
+    overflow:hidden;
+    padding: 20px 0;
 }
-.hot-professions .hot-lists .hot{
-    width: 120px;
-    height:120px;
-    text-align:center;
-    line-height:120px;
-     font-size: 16px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    color:#fff;
-    background:#fda7a7;
+.hot-professions .professions ul{
+    width: 1200px;
+    overflow:hidden;
+}
+.hot-professions .professions ul li{
+    width: 178px;
     float:left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow:hidden;
 }
-.hot-professions .hot-lists .hot-yellow{
-    background:#fbf43c;
+.hot-professions .professions ul li span{
+    display:block;
 }
-.hot-professions .hot-lists .hot-purple{
-    background:#fec2fa;
+.hot-professions .professions ul li span.title{
+    height: 36px;
+    line-height: 36px;
+    background:#191919;
+    color:#fff;
+    font-size: 16px;
 }
-.hot-professions .hot-lists .hot-blue{
-    background:#cbc8fc;
+.hot-professions .professions ul li span.content{
+    height: 36px;
+    line-height:36px;
+    background:#dbdada;
+    text-align:center;
+    outline: 1px dashed #f2f0f0;
+    outline-offset: -5px;
+    font-size:16px;
 }
-.hot-professions .hot-lists .hot-red{
+.hot-professions .btns-box{
+    width: 380px;
+    overflow:hidden;
+    margin:10px auto;
+}
+.hot-professions .btns-box a{
+    display:block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    float:left;
     background:#e75a5a;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.hot-professions .btns-box a.back-bg{
+    background:#191919;
+    margin-right: 20px;
+}
+.hot-professions .btns-box a.back-bg:hover{
+    background:#666;
+}
+.hot-professions .btns-box a.red-b:hover{
+    background:#db5353;
 }
 .schools{
     background: url("../images/school_bg.png") top center no-repeat;
@@ -316,26 +351,65 @@
     width:1200px;
 }
 .schools .schools-lists-box ul li{
-    width:380px;
-    margin-right:19px;
-    border-right:1px dashed #ccc;
+    width:373px;
+    margin-right:20px;
     float:left;
     margin-bottom:20px;
     text-align:center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    padding: 10px;
 }
-.schools .schools-lists-box ul li img {
-    width:260px;
-    height:260px;
+.schools .schools-lists-box ul li div.img-box{
+    width: 150px;
+    height: 150px;
+}
+.schools .schools-lists-box ul li div.img-box img{
+    display:block;
+    width: 100%;
+    height: 100%;
     border:none;
 }
-.schools .schools-lists-box ul li h4{
-    font-size:20px;
-    padding:10px 0;
-    color:#e75a5a;
+.schools .schools-lists-box ul li .content{
+    width:183px;
 }
-.schools .schools-lists-box ul li p{
-    font-size:16px;
-    line-height:1.5;
+.schools .schools-lists-box ul li .content h1{
+    font-size: 20px;
+    text-align:left;
+    border-left: 5px solid #191919;
+    height: 22px;
+    line-height: 19px;
+    padding-left: 5px;
+}
+.schools .schools-lists-box ul li .content p{
+    text-align:left;
+     font-size: 14px;
+    margin: 10px 0;
+}
+.schools .schools-lists-box ul li .content div.strong{
+    color:#a6150a;
+    font-weight: 600;
+    font-style: italic;
+}
+.schools .schools-lists-box ul li .content div.strong span{
+    color:#a6150a;
+    font-size:20px;
+}
+.schools .schools-lists-box ul li a{
+    display:block;
+    height:40px;
+    line-height: 40px;
+    margin-top: 20px;
+    background:#191919;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.schools .schools-lists-box ul li a:hover{
+    background:#666;
 }
 .notice{
     background:#f5f5f5;
