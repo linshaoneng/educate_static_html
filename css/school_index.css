@@ -65,7 +65,7 @@
 .banner{
     width:100%;
     background:#000;
-    margin-top:100px;
+    margin:100px auto 0;
     height: 500px;
     background:url("../images/banner.jpg") left top no-repeat;
     background-size: 100% 100%;
@@ -190,6 +190,12 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+.choose-box .choose-lists li a.special-btn{
+    background:#191919;
+}
+.choose-box .choose-lists li a.special-btn:hover{
+    background:#333333;
+}
 .choose-box .choose-lists li a:hover{
     background:#db5353;
     color:#fafafa;
@@ -198,8 +204,19 @@
     font-size:20px;
     margin-bottom: 10px;
 }
+.choose-box .choose-lists li h3.special{
+    font-size: 16px;
+}
+.choose-box .choose-lists li h3.special span{
+    color:#e75a5a;
+}
 .choose-box .choose-lists li p.content{
     font-size: 16px;
+}
+.choose-box .choose-lists li p.special-content{
+    font-size: 14px;
+    line-height:1.5;
+    padding:10px 0 15px;
 }
 .choose-box .choose-lists li div.star{
     padding:15px 0;
@@ -615,29 +632,121 @@
     padding:20px;
     text-align:center;
     font-size:28px;
+    color:#333;
+}
+.question a.link{
     color:#831f1e;
+    font-size:20px;
+    width: 200px;
+    text-align:center;
+    margin: 0 auto;
+    font-weight: 600;
+    display:block;
 }
-.question .questions{
-    width:40%;
-    text-align:right;
-    line-height:3;
+.question a.link:hover{
+    color:#a22928;
 }
-.question .fr{
-    width:40%;
-    background:url("../images/arrow.png") left center no-repeat;
-    padding-left:13%;
+.question .content{
+    width: 1180px;
+    margin:0 auto 0;
+    padding-right: 10px;
+    overflow:hidden;
 }
-.question .fr a{
-    display:inline-block;
-    background:#e75a5a;
-    color:#fff;
-    margin-bottom:10px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
+.question .content ul{
+    width: 1200px;
+    padding-right:10px;
+    padding-bottom: 10px;
+}
+.question .content ul li {
+    margin-top: 30px;
+    width:220px;
+    float:left;
+    margin-right:20px;
+    background:rgba(255,255,255,0.8);
+    position:relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
-    padding:10px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:20px;
+    display:table-cell;
+    height:120px;
+    -webkit-box-shadow: 5px 5px 5px #888888;
+    -moz-box-shadow: 5px 5px 5px #888888;
+    -o-box-shadow: 5px 5px 5px #888888;
+    box-shadow: 5px 5px 5px #888888;
 }
-.question .fr a:hover{
-    background:#db5353;
+.question .content ul li>a{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    text-decoration: underline;
 }
+.question .content ul li>a:hover{
+    font-weight:600;
+    color:#e75a5a;
+}
+.question .content ul a.btns{
+    display:block;
+    width: 180px;
+    font-size: 14px;
+    text-align:center;
+    color:#fff;
+    background:#191919;
+    height: 26px;
+    line-height: 26px;
+    margin: 5px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.question .content ul a.btns:hover{
+    color:#fff;
+    font-weight:normal;
+    background:#333333;
+}
+.hongbao{
+    width: 1180px;
+    margin: 30px auto 0;
+}
+.hongbao .cash, .hongbao .day{
+    width:520px;
+    height: 80px;
+    line-height: 80px;
+    border: 2px solid #191919;
+    position:relative;
+    padding:0 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow:hidden;
+}
+.hongbao .cash p{
+    display:inline-block;
+}
+.hongbao a{
+    display:inline-block;
+    position:absolute;
+    background:#000;
+    color:#fff;
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    top: 0;
+    right: 0;
+    padding: 0 20px;
+}
+.hongbao p{
+    font-size: 20px;
+}
+.hongbao p span{
+    font-size: 26px;
+    color:#e75a5a;
+    display:inline-block;
+    padding:0 10px;
+}
+
 
