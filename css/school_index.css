@@ -510,15 +510,18 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background:#414442;
+    background:#191919;
     color:#fff;
-    height:30px;
-    line-height:30px;
+    height:50px;
+    line-height:50px;
     text-align:center;
     font-size:16px;
     position:absolute;
     left:10%;
     bottom:15px;
+}
+.notice .content ul>li a:hover{
+    background:#666;
 }
 
 .notice .content ul>li ol{
@@ -551,7 +554,18 @@
     background:#db5353;
     color:#fafafa;
 }
-
+.notice .content  li .time{
+    text-align:center;
+    color:#fff;
+    margin-top: 20px;
+}
+.notice .content  li .time span{
+    font-size: 28px;
+    display:inline-block;
+    font-weight: 600;
+    padding:0 5px;
+    colro:#000;
+}
 .installments{
     background:url("../images/installments-bg.png") top center no-repeat;
 }
