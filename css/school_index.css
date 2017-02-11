@@ -66,13 +66,69 @@
     width:100%;
     background:#000;
     margin-top:100px;
+    height: 500px;
+    background:url("../images/banner.jpg") left top no-repeat;
+    background-size: 100% 100%;
+    overflow:hidden;
 }
-.banner img{
+.banner .content{
+    width: 1200px;
+    margin: 70px auto;
+    height: 400px;
+    overflow:hidden;
+}
+.banner .content img{
     display:block;
-    max-width:1680px;
-    width:100%;
-    margin:0 auto;
-    height:auto;
+    width: 700px;
+    height: 333px;
+}
+.banner .content .ask{
+    width: 450px;
+    height: 333px;
+    /*background:rgba(255,255,255,0.5);*/
+    background:rgba(0,0,0,0.5);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:5px 20px;
+}
+.banner .ask h1{
+    font-size: 20px;
+    color:#ce9a74;
+    height: 40px;
+    line-height: 40px;
+}
+.banner .ask ul{
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.banner .ask ul li{
+    height: 26px;
+    line-height:26px;
+}
+.banner .ask ul li a{
+    color:#eeeeee;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size: 14px;
+}
+.banner .ask ul li.hot a{
+    font-weight: 600;
+    color:#f89247;
+}
+.banner .ask ul li a:hover{
+    text-decoration: underline;
+    color:#fff;
+}
+.banner .ask ul li.hot a:hover{
+    color:#feba88;
 }
 .choose-box{
     width: 1180px;
