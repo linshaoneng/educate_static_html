@@ -820,5 +820,47 @@
 .news div.right p.even{
     background:#999;
 }
+.installments .content .lists{
+    width: 640px;
+    margin-left: 40px;
+    float:left;
+}
+.installments .content .lists .con .title{
+    background:#333;
+    color:#fff;
+    line-height:40px;
+    font-size: 20px;
+    padding: 15px 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.installments .content .lists .middle{
+    margin: 15px 0;
+}
+.installments .content .lists .con .content-con{
+    margin-left: 20px;
+}
+.installments .content .lists .con .content-con p.odd{
+    margin-bottom: 10px;
+}
+.installments .content .lists .con .content-con p span{
+    display:inline-block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    color:#fff;
+    padding: 0 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.installments .content .lists .con .content-con p.odd span{
+    background:#e75a5a;
+}
+.installments .content .lists .con .content-con p.even span{
+    background:#ce2929;
+}
 
 
