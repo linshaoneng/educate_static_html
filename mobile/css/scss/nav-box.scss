@@ -1,0 +1,28 @@
+$color_white: #fff;
+$color_blue: #5fc0f3;
+$color_green: #29b686;
+$color_pink: #e45d54;
+.nav-box {
+  a{
+    text-align:center;
+    font-size: 1.2em;
+    line-height:2.6;
+    color:$color_white;
+  }
+  a.border{
+    border-left: 1px solid $color_white;
+    border-right: 1px solid $color_white;
+  }
+  a.blue{
+    background: $color_blue;
+  }
+  a.green{
+    background: $color_green;
+  }
+  a.pink{
+    background: $color_pink;
+  }
+  .flex-box{
+    border-bottom:1px solid $color_white;
+  }
+}

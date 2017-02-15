@@ -1,0 +1,18 @@
+.nav-box a {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2.6;
+  color: #fff; }
+.nav-box a.border {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff; }
+.nav-box a.blue {
+  background: #5fc0f3; }
+.nav-box a.green {
+  background: #29b686; }
+.nav-box a.pink {
+  background: #e45d54; }
+.nav-box .flex-box {
+  border-bottom: 1px solid #fff; }
+
+/*# sourceMappingURL=nav-box.css.map */
