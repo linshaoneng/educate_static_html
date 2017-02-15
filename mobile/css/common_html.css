@@ -1,0 +1,93 @@
+@import url(./base.css);
+.nav-box a {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2.6;
+  color: #fff; }
+.nav-box a.border {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff; }
+.nav-box a.blue {
+  background: #5fc0f3; }
+.nav-box a.green {
+  background: #29b686; }
+.nav-box a.pink {
+  background: #e45d54; }
+.nav-box .flex-box {
+  border-bottom: 1px solid #fff; }
+
+.form-box {
+  padding: 20px 0; }
+  .form-box h1 {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    line-height: 1.5; }
+    .form-box h1 span {
+      color: #000; }
+  .form-box .days {
+    text-align: center;
+    font-size: 28px;
+    color: #a6150a;
+    margin-top: 15px; }
+    .form-box .days span {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 0 5px;
+      border: 2px solid #a6150a;
+      font-size: 30px;
+      line-height: 50px;
+      background: #fff; }
+  .form-box .form {
+    width: 80%;
+    margin: 10px auto; }
+    .form-box .form .group {
+      margin-bottom: 10px;
+      position: relative; }
+      .form-box .form .group label {
+        position: absolute;
+        display: block;
+        width: 70px;
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+        top: 0;
+        left: 0; }
+      .form-box .form .group .group-control {
+        margin-left: 70px;
+        background: #fff;
+        height: 36px;
+        line-height: 36px;
+        width: auto;
+        border: 2px solid #ccc; }
+        .form-box .form .group .group-control input {
+          display: block;
+          padding: 0 5px;
+          border: none;
+          height: 36px;
+          line-height: 36px;
+          font-size: 16px;
+          color: #333;
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+    .form-box .form .notice {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.2;
+      margin-bottom: 20px; }
+    .form-box .form .btn button {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      height: 40px;
+      line-height: 40px;
+      font-size: 18px;
+      letter-spacing: 5px;
+      border: none;
+      background: #96041f;
+      color: #fff; }
+
+/*# sourceMappingURL=common_html.css.map */
