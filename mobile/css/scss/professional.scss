@@ -1,3 +1,149 @@
 @import "./base.css";
 @import "./nav-box";
 @import "./form-box";
+@import "./fixed-bottom-menu";
+@mixin borderRadius($value: 5px) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+body{
+  padding-bottom: 105px;
+}
+header{
+  background:#8bd5fc;
+  padding: 20px 0;
+  h1{
+    text-align:center;
+    font-size: 26px;
+    color:#fff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #666;
+  }
+}
+.info{
+  padding:0 10px;
+  h2{
+    font-size: 20px;
+    position:relative;
+    //padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0 10px 35px;
+  color:#e45d54;
+  }
+  h2:before{
+    content:" ";
+    display:block;
+    width: 14px;
+    height: 14px;
+    background:#e45d54;
+    border:4px solid rgba(228,93,84,0.5);
+    @include borderRadius(50%);
+    position:absolute;
+    left: 0;
+    top: 20px;
+    background-clip:padding-box;
+  }
+  article{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+.professionals,.job{
+  background:#ebebeb;
+  margin-top: 22px;
+  //padding-bottom:15px;
+  overflow:hidden;
+  h1{
+    font-size: 20px;
+    padding:15px 0;
+    text-align:center;
+    color:#333;
+  }
+  .link{
+    margin-bottom: 10px;
+    a{
+      text-align:center;
+      font-size:16px;
+      text-decoration:underline;
+      color:#333;
+    }
+    a.hot-link{
+      font-weight:bold;
+      display:block;
+      padding:0 5px;
+      color:#e45d54;
+    }
+  }
+  .btns{
+    a{
+      display:block;
+      @include borderRadius(5px);
+      width:90%;
+      background:#191919;
+      color:#fff;
+      text-align:center;
+      font-size: 16px;
+      margin:15px auto;
+      height:36px;
+      line-height:36px;
+    }
+  }
+}
+.schools{
+  padding:0 10px;
+  h1{
+    color:#333;
+    font-size: 20px;
+    text-align:center;
+    padding:15px 0;
+  }
+  table{
+    width:100%;
+    border-collapse: collapse;
+    text-align:center;
+    vertical-align: middle;
+    tr,td{
+      border:1px solid #ccc;
+      background:#fafafa;
+    }
+    td{
+      padding:5px 0;
+      .school_info{
+        h5{
+          font-size: 18px;
+        }
+        p{
+          margin-top:4px;
+          em{
+            color:#e45d54;
+          }
+        }
+      }
+      img{
+        width:80px;
+        height:50px;
+      }
+    }
+    td.btns a{
+      background:#e45d54;
+    }
+  }
+
+  .btns{
+    a{
+      display:block;
+      @include borderRadius(5px);
+      width:90%;
+      background:#191919;
+      color:#fff;
+      text-align:center;
+      font-size: 16px;
+      margin:15px auto;
+      height:36px;
+      line-height:36px;
+    }
+  }
+}

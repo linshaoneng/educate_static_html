@@ -90,4 +90,162 @@
       background: #96041f;
       color: #fff; }
 
+.fixed-box {
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+  .fixed-box p {
+    background: #e45d54;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.2; }
+    .fixed-box p em {
+      font-weight: bold; }
+  .fixed-box .btns {
+    width: 100%;
+    background: #191919;
+    height: 50px;
+    color: #fff; }
+    .fixed-box .btns a {
+      color: #fff;
+      display: block;
+      width: 50%;
+      float: left;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .fixed-box .btns a img {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        margin-right: 5px;
+        vertical-align: middle; }
+    .fixed-box .btns a.online {
+      border-right: 1px solid #ccc; }
+
+body {
+  padding-bottom: 105px; }
+
+header {
+  background: #8bd5fc;
+  padding: 20px 0; }
+  header h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #666; }
+
+.info {
+  padding: 0 10px; }
+  .info h2 {
+    font-size: 20px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0 10px 35px;
+    color: #e45d54; }
+  .info h2:before {
+    content: " ";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #e45d54;
+    border: 4px solid rgba(228, 93, 84, 0.5);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background-clip: padding-box; }
+  .info article {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 1.5; }
+
+.professionals, .job {
+  background: #ebebeb;
+  margin-top: 22px;
+  overflow: hidden; }
+  .professionals h1, .job h1 {
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+    color: #333; }
+  .professionals .link, .job .link {
+    margin-bottom: 10px; }
+    .professionals .link a, .job .link a {
+      text-align: center;
+      font-size: 16px;
+      text-decoration: underline;
+      color: #333; }
+    .professionals .link a.hot-link, .job .link a.hot-link {
+      font-weight: bold;
+      display: block;
+      padding: 0 5px;
+      color: #e45d54; }
+  .professionals .btns a, .job .btns a {
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 90%;
+    background: #191919;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px auto;
+    height: 36px;
+    line-height: 36px; }
+
+.schools {
+  padding: 0 10px; }
+  .schools h1 {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0; }
+  .schools table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle; }
+    .schools table tr, .schools table td {
+      border: 1px solid #ccc;
+      background: #fafafa; }
+    .schools table td {
+      padding: 5px 0; }
+      .schools table td .school_info h5 {
+        font-size: 18px; }
+      .schools table td .school_info p {
+        margin-top: 4px; }
+        .schools table td .school_info p em {
+          color: #e45d54; }
+      .schools table td img {
+        width: 80px;
+        height: 50px; }
+    .schools table td.btns a {
+      background: #e45d54; }
+  .schools .btns a {
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 90%;
+    background: #191919;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px auto;
+    height: 36px;
+    line-height: 36px; }
+
 /*# sourceMappingURL=professional.css.map */

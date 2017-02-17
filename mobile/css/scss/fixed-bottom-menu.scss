@@ -1,0 +1,48 @@
+$color_red: #e45d54;
+.fixed-box{
+  z-index: 999;
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  p{
+    background:$color_red;
+    width: 100%;
+    color:#fff;
+    font-size: 16px;
+    text-align:center;
+    line-height: 2.2;
+    em{
+      //font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .btns{
+    width: 100%;
+    background:#191919;
+    height:50px;
+    color:#fff;
+    a{
+      color:#fff;
+      display:block;
+      width:50%;
+      float: left;
+      text-align:center;
+      height:50px;
+      line-height:50px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      img{
+        display:inline-block;
+        width:22px;
+        height:22px;
+        margin-right:5px;
+        vertical-align: middle;
+      }
+    }
+    a.online{
+      border-right:1px solid #ccc;
+    }
+  }
+}

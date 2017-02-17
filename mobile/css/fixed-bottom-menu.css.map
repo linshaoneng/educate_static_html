@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAAU;EACR,QAAQ,EAAE,KAAK;EACf,IAAI,EAAC,CAAC;EACN,MAAM,EAAC,CAAC;EACR,YAAC;IACC,UAAU,EANF,OAAO;IAOf,KAAK,EAAE,IAAI;IACX,KAAK,EAAC,IAAI;IACV,SAAS,EAAE,IAAI;IACf,UAAU,EAAC,MAAM;IACjB,WAAW,EAAE,GAAG",
+"sources": ["scss/fixed-bottom-menu.scss"],
+"names": [],
+"file": "fixed-bottom-menu.css"
+}

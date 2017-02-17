@@ -1,0 +1,13 @@
+.fixed-box {
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  .fixed-box p {
+    background: #e45d54;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.8; }
+
+/*# sourceMappingURL=fixed-bottom-menu.css.map */
