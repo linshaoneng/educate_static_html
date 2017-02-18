@@ -1,4 +1,19 @@
 @import "base.css";
+.flex-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:flex;
+}
+.flex-box .item {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
 .nav-box{
     padding:15px 30px 12px;
     background:#161616;
@@ -16,6 +31,15 @@
 .nav-box .logo-box h1{
     font-size: 32px;
     color:#fafafa;
+}
+.nav-box .logo-box h1.with-sub{
+    font-size: 32px;
+    color:#fafafa;
+    line-height: 73px;
+}
+.nav-box .logo-box h1.with-sub span{
+    font-size: 18px;
+    color:#fff;
 }
 .nav-box .logo-box p {
     font-size: 16px;
@@ -64,11 +88,12 @@
 }
 .banner{
     width:100%;
-    background:#000;
+    /*background:#e45d54;*/
     margin:100px auto 0;
     height: 500px;
     background:url("../images/banner.jpg") left top no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
+    /*background:#*/
     overflow:hidden;
 }
 .banner .content{
@@ -85,8 +110,8 @@
 .banner .content .ask{
     width: 450px;
     height: 333px;
-    /*background:rgba(255,255,255,0.5);*/
-    background:rgba(0,0,0,0.5);
+    background:rgba(255,255,255,0.8);
+    /*background:rgba(0,0,0,0.5);*/
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -113,11 +138,12 @@
     line-height:26px;
 }
 .banner .ask ul li a{
-    color:#eeeeee;
+    /*color:#eeeeee;*/
     white-space: nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
     font-size: 14px;
+    color:#333;
 }
 .banner .ask ul li.hot a{
     font-weight: 600;
@@ -125,7 +151,7 @@
 }
 .banner .ask ul li a:hover{
     text-decoration: underline;
-    color:#fff;
+    color:#f89247;
 }
 .banner .ask ul li.hot a:hover{
     color:#feba88;
@@ -862,5 +888,275 @@
 .installments .content .lists .con .content-con p.even span{
     background:#ce2929;
 }
+.recommend_schools{
+    width: 1190px;
+    margin: 30px auto;
+    overflow:hidden;
+}
+.recommend_schools h1{
+    text-align:center;
+    font-size:26px;
+}
+.recommend_schools>.btns a{
+    display:block;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    background:#191919;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.recommend_schools>.btns a:hover{
+    background:#666;
+}
+.recommend_schools .schools-list{
+    width: 1180px;
+    margin:0 auto 40px;
+    overflow:hidden;
+}
+.recommend_schools .schools-list ul{
+    width: 1200px;
+}
+.recommend_schools .schools-list ul li{
+    margin-top: 30px;
+    width:220px;
+    float:left;
+    margin-right:20px;
+    padding:20px;
+    background:#eeeeee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.recommend_schools .schools-list ul li h3{
+    font-size: 20px;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    border-bottom: 1px dashed #e75a5a;
+    color:#e75a5a;
+}
+.recommend_schools .schools-list ul li .btns a{
+    display:block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    background:#e75a5a;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.recommend_schools .schools-list ul li .btns a:hover{
+    background:#db5353;
+}
+.recommend_schools .schools-list ul li .content{
+    padding: 15px;
+}
+.recommend_schools .schools-list ul li .content p{
+    height:40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.recommend_schools .schools-list ul li .content p em{
+    font-weight: bold;
+    color:#e45d54;
+}
+.news-info-lists,.profession-job{
+    background:#eeeeee;
+    padding: 50px;
+}
+.news-info-lists .content-width,.profession-job .content-width{
+    width: 1190px;
+    margin:0 auto;
+}
+.news-info-lists .content-width .goods-1,.news-info-lists .content-width .goods-2,.profession-job .content-width .part-1,.profession-job .content-width .part-2{
+    width: 580px;
+    background:#fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.news-info-lists .content-width h1{
+    font-size: 20px;
+    line-height:1;
+    margin-bottom: 20px;
+}
+.news-info-lists .content-width .goods-1 ul li,.news-info-lists .content-width .goods-2 ul li{
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.news-info-lists .content-width .goods-1 ul li:last-child,.news-info-lists .content-width .goods-2 ul li:last-child{
+    margin-bottom:0;
+}
+.news-info-lists .content-width .goods-1 ul li:nth-child(odd) {
+    background:#efefef;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.news-info-lists .content-width .goods-2 ul li{
+    background:#efefef;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:0;
+    overflow:hidden;
+}
+.news-info-lists .content-width .goods-2 ul li span{
+    display:inline-block;
+    padding:0 15px;
+    color:#fff;
+    background:#e75a5a;
+    margin-right: 10px;
+}
+.profession-job{
+    margin-bottom: -40px;
+    background:#fff;
+}
+.profession-job .content-width .part-1,.profession-job .content-width .part-2{
+    background:#eeeeee;
+}
+.profession-job h1{
+    text-align:center;
+    font-size: 20px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom: 1px dashed #ccc;
 
+}
+.profession-job .btns a{
+    display:block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    background:#e75a5a;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin:20px auto 0;
+}
+.profession-job .btns a:hover{
+    background:#db5353;
+}
+.profession-job .lists{
+    justify-content: center;
+    margin-top: 20px;
+}
+.profession-job .lists a{
+    background:#fff;
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    text-align:center;
+    font-size:16px;
+}
+.profession-job .lists a:nth-child(2){
+    margin: 0 45px;
+}
+.tab-professions{
+    padding: 30px;
+    background:#eeeeee;
+}
+.tab-professions .width-limit{
+    width: 1190px;
+    margin:0 auto;
+}
+.tab-professions .width-limit h1{
+    font-size: 26px;
+    text-align:center;
+}
+.tab-professions .width-limit .content-box{
+    background:#fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin:30px auto;
+    overflow:hidden;
+}
+.tab-professions .width-limit .content-box .tab-menu li{
+    width: 150px;
+    background:#cacaca;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    cursor: pointer;
+    border-bottom: 1px dashed #fff;
+}
+.tab-professions .width-limit .content-box .tab-menu li.on,.tab-professions .width-limit .content-box .tab-menu li:hover{
+    background:#e75a5a;
+}
+.tab-professions .width-limit .content-box .tab-menu li:last-child{
+    border:none;
+}
+.tab-professions .width-limit .content-box .tab-content{
+    width:1040px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.tab-professions .width-limit .btns a{
+    display:block;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    background:#e75a5a;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin:0 auto;
 
+}
+.tab-professions .width-limit .btns a:hover{
+    background:#db5353;
+}
+.tab-professions .width-limit .content-box .tab-content .content{
+    position:relative;
+    padding-bottom: 40px;
+    height: 145px;
+}
+.tab-professions .width-limit .content-box .tab-content p{
+    font-size: 16px;
+    line-height:1.5;
+    text-indent: 2em;
+}
+.tab-professions .width-limit .content-box .tab-content a{
+    display:block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    background:#191919;
+    color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.tab-professions .width-limit .content-box .tab-content a:hover{
+    background:#666;
+}
