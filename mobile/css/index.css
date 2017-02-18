@@ -11,6 +11,15 @@ body{
 }
 .name-box{
     width:100%;
+    height:auto;
+    border-bottom: 2px solid #fff;
+}
+.name-box h1{
+    font-size: 30px;
+    text-align:center;
+    padding:40px 0;
+    background:#e45d54;
+    color:#fff;
 }
 .name-box img{
     display:block;
@@ -59,7 +68,7 @@ body{
     text-align:justify;
 }
 .professions{
-    background:#e9f8fd;
+    background:#eeeeee;
     padding-bottom: 10px;
 }
 .professions h1{
