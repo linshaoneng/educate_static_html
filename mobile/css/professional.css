@@ -17,14 +17,13 @@
   border-bottom: 1px solid #fff; }
 
 .form-box {
-  padding: 20px 0; }
+  padding: 20px 0;
+  background: #eeeeee; }
   .form-box h1 {
     text-align: center;
     color: #000;
     font-size: 24px;
     line-height: 1.5; }
-    .form-box h1 span {
-      color: #000; }
   .form-box .days {
     text-align: center;
     font-size: 28px;
@@ -140,14 +139,14 @@ body {
     text-align: center; }
 
 header {
-  background: #8bd5fc;
-  padding: 20px 0; }
+  background: #5fc0f3;
+  padding: 20px 0;
+  border-bottom: 2px solid #fff; }
   header h1 {
     text-align: center;
     font-size: 26px;
     color: #fff;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 0px #666; }
+    margin-bottom: 10px; }
 
 .info {
   padding: 0 10px; }

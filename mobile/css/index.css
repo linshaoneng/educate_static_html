@@ -114,8 +114,8 @@ a.ask-teacher{
 }
 .form-box{
     padding:20px 0;
-    background:url("../images/form-box-bg.jpg") left top no-repeat;
-    background-size:100% 100%;
+    background:#eeeeee;
+    /*background-size:100% 100%;*/
 }
 .form-box h1{
     text-align:center;
@@ -131,16 +131,17 @@ a.ask-teacher{
     font-size:28px;
     color:#a6150a;
     margin-top:15px;
+    margin-bottom: 20px;
 }
 .form-box .days span{
     display:inline-block;
     width:50px;
     height:50px;
     margin:0 5px;
-    border:2px solid #a6150a;
+    border:1px solid #a6150a;
     font-size:30px;
     line-height:50px;
-    background:#fff;
+    /*background:#fff;*/
 }
 .form-box .form{
     width:80%;
@@ -196,8 +197,11 @@ a.ask-teacher{
     font-size:18px;
     letter-spacing: 5px;
     border:none;
-    background:#96041f;
+    background:#e45d54;
     color:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .school-news {
     margin-top:20px;

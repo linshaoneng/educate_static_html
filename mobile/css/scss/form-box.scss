@@ -7,14 +7,15 @@ $color_black: #000;
 }
 .form-box{
   padding: 20px 0;
+  background:#eeeeee;
   h1{
     text-align:center;
     color:#000;
     font-size:24px;
     line-height:1.5;
-    span{
-      color:#000;
-    }
+    //span{
+    //  color:#000;
+    //}
   }
   .days{
     text-align:center;

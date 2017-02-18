@@ -1,0 +1,153 @@
+$color_red:#e45d54;
+$color_black:#191919;
+@mixin borderRadius($value: 5px) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+body{
+  padding-bottom: 105px;
+  h1{
+    font-size: 20px;
+    text-align:center;
+  }
+}
+.schools{
+   padding:0 10px;
+   h1{
+     color:#333;
+     font-size: 20px;
+     text-align:center;
+     padding:15px 0;
+   }
+   table{
+     width:100%;
+     border-collapse: collapse;
+     text-align:center;
+     vertical-align: middle;
+     tr,td{
+       border:1px solid #ccc;
+       background:#fafafa;
+     }
+     td{
+       padding:5px 0;
+       .school_info{
+         h5{
+           font-size: 18px;
+         }
+         p{
+           margin-top:4px;
+           em{
+             color:#e45d54;
+           }
+         }
+       }
+       img{
+         width:80px;
+         height:50px;
+       }
+     }
+     td.btns a{
+       background:#e45d54;
+     }
+   }
+
+   .btns{
+     a{
+       display:block;
+       @include borderRadius(5px);
+       width:90%;
+       background:#191919;
+       color:#fff;
+       text-align:center;
+       font-size: 16px;
+       margin:15px auto;
+       height:36px;
+       line-height:36px;
+     }
+   }
+ }
+
+.questions{
+  margin-top: 20px;
+  padding-right:10px;
+  overflow:hidden;
+  h1{
+    font-size: 20px;
+    text-align:center;
+    line-height: 1;
+    margin-bottom: 20px;
+    color:#333;
+  }
+  .list{
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    p{
+      font-size: 14px;
+      padding:0 10px;
+      margin-right: 10px;
+    }
+    a{
+      display:inline-block;
+      color:#fff;
+      font-size: 14px;
+      width:90px;
+      text-align:center;
+      @include borderRadius(5px);
+      background:$color_black;
+    }
+  }
+  .list:nth-child(even){
+    p{
+      background:#eeeeee;
+    }
+    a{
+      background:$color_red;
+    }
+  }
+}
+.goods{
+  margin-top: 20px;
+  h1{
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  .list{
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    span{
+      display:inline-block;
+      width: 90px;
+      text-align:center;
+      background:#fcb6b1;
+    }
+    p{
+      text-align:center;
+      background:$color_red;
+      color:#fff;
+    }
+  }
+}
+.form-box{
+  background:#eeeeee;
+  margin:30px auto;
+  .days{
+    font-size:25px;
+    color:#666;
+    margin-bottom: 20px;
+    em{
+      font-style: normal;
+      font-size: 30px;
+      color:$color_red;
+    }
+  }
+}
+footer{
+  display:block;
+  text-align:center;
+  font-size: 14px;
+}
