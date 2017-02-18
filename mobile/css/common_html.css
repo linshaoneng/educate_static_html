@@ -87,7 +87,10 @@
       font-size: 18px;
       letter-spacing: 5px;
       border: none;
-      background: #96041f;
-      color: #fff; }
+      background: #e45d54;
+      color: #fff;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
 
 /*# sourceMappingURL=common_html.css.map */

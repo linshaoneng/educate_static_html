@@ -1,4 +1,10 @@
 $color_black: #000;
+
+@mixin borderRadius($value: 5px) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
 .form-box{
   padding: 20px 0;
   h1{
@@ -79,8 +85,9 @@ $color_black: #000;
       font-size:18px;
       letter-spacing: 5px;
       border:none;
-      background:#96041f;
+      background:#e45d54;
       color:#fff;
+      @include borderRadius;
     }
   }
 }
