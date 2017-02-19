@@ -51,13 +51,18 @@
 .nav-box .nav-lists li{
     float:left;
     height:24px;
-    margin-right:20px;
+    margin-right:55px;
+}
+.nav-box .nav-lists li.new-nav-lists{
+    margin-right:40px;
 }
 .nav-box .nav-lists li a{
-    color:#ccc;
-    font-size:18px;
+    /*color:#ccc;*/
+    font-size:20px;
+    font-weight: bold;
     height:24px;
     line-height:24px;
+    color:#fff;
  }
 .nav-box .nav-lists li a:hover,.nav-box .nav-lists li.on a{
     color:#fff;
@@ -303,7 +308,7 @@
     border-radius: 5px;
     overflow:hidden;
 }
-.hot-professions .professions ul li span{
+.hot-professions .professions ul li span,.hot-professions .professions ul li a{
     display:block;
 }
 .hot-professions .professions ul li span.title{
@@ -313,7 +318,7 @@
     color:#fff;
     font-size: 16px;
 }
-.hot-professions .professions ul li span.content{
+.hot-professions .professions ul li a.content{
     height: 36px;
     line-height:36px;
     background:#dbdada;
@@ -428,14 +433,14 @@
     height:40px;
     line-height: 40px;
     margin-top: 20px;
-    background:#191919;
+    background:#db5353;
     color:#fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
 .schools .schools-lists-box ul li a:hover{
-    background:#666;
+    background:#db5353;
 }
 .notice{
     background:#f5f5f5;
@@ -536,7 +541,7 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background:#191919;
+    background:#787878;
     color:#fff;
     height:50px;
     line-height:50px;
@@ -547,7 +552,7 @@
     bottom:15px;
 }
 .notice .content ul>li a:hover{
-    background:#666;
+    background:#333;
 }
 
 .notice .content ul>li ol{
@@ -597,7 +602,7 @@
 }
 .installments .title h1{
     text-align:center;
-    font-size:32px;
+    font-size:40px;
     padding:40px 0 20px;
     line-height: 1.5;
     font-family:"宋体";
@@ -664,18 +669,18 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background:#191919;
+    background:#e75a5a;
     text-align:center;
     color:#fff;
     display:block;
     width: 100%;
     border:none;
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: 3px;
     cursor:pointer;
 }
 .installments .content .form-box .btn button:hover{
-    background:#999;
+    background:#db5353;
 }
 .footer{
     width:100%;
@@ -696,11 +701,12 @@
 .question a.link{
     color:#831f1e;
     font-size:20px;
-    width: 200px;
+    width: 220px;
     text-align:center;
     margin: 0 auto;
     font-weight: 600;
     display:block;
+    text-decoration: underline;
 }
 .question a.link:hover{
     color:#a22928;
@@ -835,16 +841,16 @@
     padding: 0 20px;
 }
 .news div.left p.odd{
-    background:#e75a5a;
+    background:#9ebdf7;
 }
 .news div.left p.even{
-    background:#ce2929;
+    background:#f5c6c6;
 }
 .news div.right p.odd{
-    background:#666;
+    background:#6aca84;
 }
 .news div.right p.even{
-    background:#999;
+    background:#f7b9ca;
 }
 .installments .content .lists{
     width: 640px;
@@ -852,7 +858,7 @@
     float:left;
 }
 .installments .content .lists .con .title{
-    background:#333;
+    background:#747dff;
     color:#fff;
     line-height:40px;
     font-size: 20px;
@@ -870,7 +876,7 @@
 .installments .content .lists .con .content-con p.odd{
     margin-bottom: 10px;
 }
-.installments .content .lists .con .content-con p span{
+.installments .content .lists .con .content-con p a{
     display:inline-block;
     font-size: 14px;
     height: 50px;
@@ -882,10 +888,10 @@
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
-.installments .content .lists .con .content-con p.odd span{
-    background:#e75a5a;
+.installments .content .lists .con .content-con p.odd a{
+    background:#66b3d2;
 }
-.installments .content .lists .con .content-con p.even span{
+.installments .content .lists .con .content-con p.even a{
     background:#ce2929;
 }
 .recommend_schools{
